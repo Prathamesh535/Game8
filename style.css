@@ -1,0 +1,58 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Baloo Da 2', cursive;
+}
+.navbarstyle{
+    background-color: #05152f;
+    padding: 10px 0px;
+}
+.navbarstyle a{
+    color: white !important;
+    font-size: 15px;
+    font-weight: bold;
+}
+.navbar-brand{
+    position: relative;
+    left: 250px;
+    top: 4px;
+}
+.navbar-nav{
+    padding:0px 350px;
+}
+.nav-item{
+    margin:0px 10px;
+}
+.nav-item:hover{
+    color:white;
+    background-color: #7ba435;
+}
+.part1{
+    height: 450px;
+    width: 100%;
+    /* border: 2px solid red; */
+    background-color: #05152f;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.cont1,.cont2{
+    /* border: 1px solid green; */
+    width: 35%;
+    height: 400px;
+    color: white;
+    padding: 50px 50px;
+}
+.cont1{
+    padding:50px 20px;
+}
+.cont1 button{
+    background-color: #7ba435;
+    border: 1px solid #7ba435;
+}
+.cont2 img{
+    width: 400px;
+    height: 400px;
+    position: relative;
+    bottom:30px;
+}
