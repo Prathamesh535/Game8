@@ -61,3 +61,44 @@
     background-color: #7ba435;
     color: white;
 }
+@media (max-width:800px){
+    .cont5{
+        width: 350px;
+    }
+    .col1{
+        display: flex;
+        width: 80% !important;
+    }
+    .col1 img{
+        height: 40px !important;
+    }
+    .box img{
+        width: 30px !important;
+        height: 30px !important;
+    }
+    .box{
+        height: 40px;
+        width: 100px;
+        position: relative;
+        top: 5px;
+        left: 2px;
+    }
+    .othermatch{
+        position: relative;
+        bottom: 215px;
+    }
+
+    .date{
+        text-align: center;
+    }
+    .box p{
+        font-size: 10px !important;
+    }
+    .displayhidden{
+        display: none !important;
+    }
+    .part3{
+        height: 650px;
+    }
+    
+}

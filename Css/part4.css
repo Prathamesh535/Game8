@@ -24,3 +24,16 @@
     border-radius:10px;
     border:1px solid #7ba435;
 }
+@media (max-width:1000px){
+    .row1{
+        width: 100%;
+    }
+    .col2 button{
+        font-size: 10px;
+    }
+    .col1 img{
+        width: 10%;
+        height: 30%;
+    }
+
+}

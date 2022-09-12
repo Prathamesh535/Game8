@@ -56,3 +56,28 @@
     position: relative;
     bottom:30px;
 }
+@media (max-width:1000px) and (min-width:100px){
+    .navbar-nav{
+        padding: 0px 220px;
+    }
+    .cont2 img{
+        width: 250px;
+        height: 300px;
+    }
+    .cont1 img{
+        position: relative;
+        bottom:53px;
+        left: 140px;
+    }
+    .responsiveboy{
+        position: relative;
+        top: 30px;
+        width:250px !important;
+        height: 300px !important;
+    }
+    .cont4{
+        position: relative;
+        bottom: 30px;
+        left: 20px;
+    }
+}

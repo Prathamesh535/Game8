@@ -7,7 +7,6 @@
     width: 100%;
     height: 650px;
     background-color: #000f2e;
-
 }
 .texting{
     display: flex;
@@ -87,4 +86,25 @@
 .uparleja{
     position: relative;
     bottom: 30px;
+}
+@media (max-width:1000px){
+    .searchbox{
+        width: 100%;
+        font-size: 12px;
+    }
+    .searchbarbtn{
+        position: relative;
+        right: 10px;
+    }
+    .part5{
+        height: 800px;
+    }
+    .endrow{
+        width: 110%;
+    }
+    .resendcol h5{
+        position: relative;
+        top: 20px;
+    }
+    
 }
