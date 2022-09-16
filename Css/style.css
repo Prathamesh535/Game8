@@ -56,7 +56,7 @@
     position: relative;
     bottom:30px;
 }
-@media (max-width:1000px) and (min-width:100px){
+@media (max-width:1000px){
     .navbar-nav{
         padding: 0px 220px;
     }
@@ -79,5 +79,34 @@
         position: relative;
         bottom: 30px;
         left: 20px;
+    }
+}
+@media (max-width:500px) and (min-width:0px){
+    .cont2 img{
+        width: 7rem;
+        height: 14rem;
+        position: relative;
+        right: 50px;
+        top: 1rem;
+    }
+    .cont1{
+        width: 15rem;
+    }
+    .cont1 img{
+        position: relative;
+        left: 1rem;
+        top: 0rem;
+        z-index: 1;
+    }
+    .navbar-brand{
+        position: relative;
+        left: 9rem;
+    }
+    .nav-item{
+        position: relative;
+        right: 4rem;
+    }
+    .part1{
+        height: 25rem;
     }
 }

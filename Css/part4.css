@@ -24,7 +24,7 @@
     border-radius:10px;
     border:1px solid #7ba435;
 }
-@media (max-width:1000px){
+@media (max-width:1000px) and (min-width:500px){
     .row1{
         width: 100%;
     }
@@ -35,5 +35,4 @@
         width: 10%;
         height: 30%;
     }
-
 }
